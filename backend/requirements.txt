@@ -1,0 +1,11 @@
+# AgentProbe backend dependencies
+# FastAPI: HTTP API routing, request validation and the single ASGI app.
+fastapi==0.142.2
+# uvicorn: ASGI server used by the documented run commands.
+uvicorn==0.54.0
+# SQLAlchemy: ORM, SQLite engine and session management.
+SQLAlchemy==2.0.52
+# httpx: HTTP client for the chatbot call (Stage 2) and FastAPI's TestClient.
+httpx==0.27.0
+# pytest: test runner and fixtures.
+pytest==8.1.1
